@@ -1,1 +1,1 @@
-go to ZAKSomebody.com
+# go to ZAKSomebody.com
