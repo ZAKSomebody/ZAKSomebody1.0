@@ -1,1 +1,1 @@
-**go to** _[ZAKSomebody.com]_(https://www.ZAKSomebody.com/)
+**go to** _[ZAKSomebody.com](https://www.ZAKSomebody.com/)_
