@@ -18,6 +18,17 @@ img,picture,svg,video{
     display: block;
     max-width: 100%;
 }
+#main{
+    background-color: #b3b3b38f;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    backdrop-filter: blur( 4px );
+}
 /* #blurCentr{
     background-color: #b3b3b38f;
     width: 70%;
@@ -45,13 +56,10 @@ img,picture,svg,video{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
-    color: #000021ff;
 }
 #menu:hover{
     width: 70px;
     height: 70px;
-    font-size: 70px;
     background-color: #ff8a03ff;
 }
 .dot{
