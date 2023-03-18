@@ -27,23 +27,68 @@ img,picture,svg,video{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50px;
-    display: flex;
-    justify-content: center;
+    backdrop-filter: blur(20px);
 }
 #title{
     background-color: #b3b3b3ff;
+    color: #000021ff;
     width: fit-content;
     height: fit-content;
     padding: 11px 20px 15px 20px;
     box-sizing: unset;
     border: 10px solid #000021ff;
     position: absolute;
-    top: 15px;
-    left: 38%;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 1;
     font-size: 2rem;
     border-radius: 50px;
+}
+#title:hover , #veryun:hover{
+    background-color: #ff8a03ff;
     color: #000021ff;
+}
+#img2{
+    z-index: 10;
+    width: 50%;
+    height: 8%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#img1{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 3%;
+    z-index: 9;
+}
+svg{
+    z-index: -1;
+    width: 95%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#veryun{
+    z-index: 2;
+    background-color: #b3b3b3ff;
+    color: #000021ff;
+    height: 30px;
+    width: 30px;
+    padding: 3px 3px 0px 3px;
+    box-sizing: unset;
+    border-radius: 100%;
+    border: 5px solid #000021ff;
+    position: absolute;
+    left: 59.3%;
+    /* left: clamp(0%, 811px, 77%); */
+    top: 1.8%;
+    font-size: 1.5rem;
 }
 #menu{
     background-color: #b3b3b3ff;
@@ -53,8 +98,8 @@ img,picture,svg,video{
     box-sizing: unset;
     border: 10px solid #000021ff;
     position: absolute;
-    bottom: 50px;
-    right: 30px;
+    bottom: 8%;
+    right: 1.1%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +107,7 @@ img,picture,svg,video{
 #menu:hover{
     width: 70px;
     height: 70px;
-    bottom: 40px;
+    bottom: 5%;
     background-color: #ff8a03ff;
 }
 .dot{
@@ -76,19 +121,3 @@ img,picture,svg,video{
     width: 7px;
     height: 7px;
 }
-/* #blurCentr{
-    background-color: #b3b3b38f;
-    width: 70%;
-    height: 70%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50px;
-
-    background: rgba( 179, 179, 179, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
-} */
