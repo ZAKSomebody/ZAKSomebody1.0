@@ -9,6 +9,7 @@
     height: 100%;
     width: 100%;
     transition: all 0.3s;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     background-color: #000021ff;
