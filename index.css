@@ -84,20 +84,20 @@ img,picture,svg,video{
     background-color: #ff8a03ff;
     color: #000021ff;
     height: unset;
-    width: 3%;
+    width: 2%;
     aspect-ratio: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3px 4px 4px 3px;
+    padding: 1px 2px 1px 1px;
     box-sizing: unset;
     border-radius: 100%;
     border: 5px solid #000021ff;
     position: absolute;
-    left:19%;
+    left:18%;
     /* left: clamp(0%, 811px, 77%); */
-    top:0%;
-    font-size: 1.5rem;
+    top:1%;
+    /* font-size: 1.5rem; */
 }
 #intro{
     background-color: #b3b3b3ff;
